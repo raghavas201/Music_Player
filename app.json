@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Mume",
+    "slug": "mume",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.mume.musicplayer"
+    },
+    "android": {
+      "package": "com.mume.musicplayer",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Mume to access your microphone"
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "extra": {
+      "eas": {
+        "projectId": "4288b0b5-c360-4db2-be00-17ab6e9cb693"
+      }
+    },
+    "owner": "raghava2003s-organization"
+  }
+}

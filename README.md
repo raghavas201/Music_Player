@@ -86,8 +86,13 @@ npm run ios
 # For Web
 npm run web
 ```
+📱 Building APK
 
-## 📱 Building APK
+📥 Download Ready APK
+
+You can directly download and install the APK from the link below:
+
+APK File: https://drive.google.com/file/d/1zx-imTZjr1yHTSnONnudA7xDZ6gpPWf7/view?usp=share_link
 
 ### Option 1: Build with EAS (Recommended)
 ```bash
